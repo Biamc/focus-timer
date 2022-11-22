@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62,5%;
+  --bg-color: hsl(0, 0%, 0%);
+  --base-color: 337;
+  --primary-color: hsl(var(--base-color), 100%, 63%);
+  --primary-light-color:hsla(var(--base-color), 100%, 63%, 0.13);
+  --text-color: #ffffff;
+}
+
+body {
+  background:var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: grid;
+  
+  
+}
+ main{
+  align-self: end;
+  justify-self: center;
+ }
+
+
+.timer {
+  margin: auto auto 1.6rem;
+  color:var(--text-color);
+  font-weight: 700;
+  font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+  line-height: 10.3rem;
+  
+  text-transform: uppercase;
+}
+
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 6.4rem;
+  height: 6.4rem;
+  
+}
+
+#play svg,
+#pause svg,
+#stop svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+#set svg {
+  width: 5.39rem;
+  height: 5.39rem;
+}
+
+#play svg path,
+#pause svg path,
+#soudOn svg path,
+#soundOff svg path {
+  fill: var(--primary-color);
+}
+
+.hide{
+  display: none;
+}
+
+.controls {
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 30vw, 10.8rem);
+  margin: auto;
+ 
+  padding: 2.2rem 4rem 2.2rem 4rem;
+  background-color: var(--primary-light-color);
+  border-radius: 9999px;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+footer {
+ 
+  padding: 0 4rem 3.2rem 0;
+  align-self: end;
+  justify-self: end;
+}
+
+#soundOn svg path{
+  fill: var(--primary-color);
+}
+
+/**
+
+h1 {
+  margin: 24.6rem auto 1.6rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 8.8rem;
+  line-height: 10.3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+
+.iniciated {
+  position: relative;
+  width: 22.8rem;
+ 
+  
+  margin-bottom: 15.1rem;
+  margin-inline: auto;
+  padding: 2.2rem 4rem 2.2rem 4rem;
+  
+  border-radius: 999.9rem;
+
+  
+ 
+}
+
+
+  border-radius: 999.9rem;
+
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+ 
+}
+
+footer button{
+  position: absolute;
+  right: 4rem;
+  bottom: 3.2rem;
+  
+  
+ 
+  
+}*/
